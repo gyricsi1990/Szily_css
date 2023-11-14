@@ -1,0 +1,70 @@
+body{
+	min-height: 100vh;
+	background: linear-gradient(#99ccff, #aa2A11);
+	
+	width: 80%;
+	max-width : 800px;
+	height: 100%;
+	margin : auto;
+	
+	
+}
+
+
+#teszt:hover {
+	background : red; 
+}
+
+h1{
+	background : rgba(21, 255, 255, 0.3) ;
+}
+
+h2{
+	background : rgb(22, 121, 121) ;
+	color : rgb(21, 255, 255) ;
+	clear : both; /* float-ot üti ki*/
+}
+h2:hover{
+	background : rgb(22, 11, 21) ;
+	color : rgb(111, 111, 255) ;
+}
+
+p{
+	text-align : justify; 
+	
+}
+p:hover{
+	
+	background : rgba(140, 140, 140, 0.7) ;
+	color : rgb(ff, ff, ff) ;
+	
+}
+#lablec {
+	border-top : 5px solid red;
+	text-align : center;
+	font-width: bold;
+	clear : both; /* float-ot üti ki*/
+}
+
+a:link {
+	color : white;
+	
+}
+a:visited {
+	color : black;
+	
+}
+a:hover {
+	
+	color : purple;
+	font-size : 20px 
+}
+
+img{
+	
+	width : 200px;
+	float : left;
+	margin-right : 10px;
+	/*margin : 15px;*/
+	
+}
